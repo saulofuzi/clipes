@@ -5,3 +5,9 @@ temp/
 *.mp3
 *.wav
 *.ogg
+.env
+dist/
+build/
+*.pid
+*.seed
+*.pid.lock
