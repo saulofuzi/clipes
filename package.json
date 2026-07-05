@@ -1,0 +1,20 @@
+{
+  "name": "discord-clip-bot",
+  "version": "1.0.0",
+  "description": "Bot que grava áudio do Discord",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@kirdock/discordjs-voice-recorder": "^1.0.6",
+    "@discordjs/voice": "^0.16.0",
+    "dotenv": "^16.4.5",
+    "ffmpeg-static": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
