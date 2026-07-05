@@ -1,0 +1,9 @@
+{
+  "name": "discord-clip-bot",
+  "main": "src/index.js",
+  "build": "npm install",
+  "start": "node src/index.js",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
